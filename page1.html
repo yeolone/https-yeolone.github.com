@@ -1,0 +1,175 @@
+<!DOCTYPE html> <!--22161122 최지원-->
+<html lang="ko">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
+    <title>H!G1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+      * {
+        margin : 0;
+        padding : 0;
+        font-family: 'Montserrat', sans-serif;
+        box-sizing : border-box;
+      }
+      @-webkit-keyframes fadein {from {opacity:0;} to {opacity:1;}}
+      body {
+        text-align : center;
+      }
+      a {
+        text-decoration : none;
+      }
+      li {
+        list-style-type : none;
+      }
+      .clear {
+        clear : both;
+      }
+      header {
+        width : 100%;
+        height : 200px;
+      }
+      #logo {
+        text-align : center;
+        padding-top : 50px;
+      }
+      #main_menu {
+        width : 100%;
+        float : left;
+        height : 60px;
+      }
+      #main_menu a {
+        color : black;
+      }
+      #main_menu a:hover {
+        color : white;
+        background-color : gray;
+        padding : 0 10px 0 10px;
+      }
+      #main_menu li {
+        display : inline-block;
+        margin-left : 20px;
+        padding : 20px;
+      }
+      section {
+        -webkit-animation: fadein 0.9s;
+        font-size : 14px;
+      }
+      .content1{
+        margin-top : 40px;
+      }
+      .content1 h2{
+        margin-bottom: 30px;
+      }
+      .content1 p {
+        line-height: 200%;
+      }
+      .content2 ul {
+        margin-top : 20px;
+        text-align : center;
+      }
+      .content2 li {
+        width : 150px; height : 150px; display : inline-block;
+      }
+      .content3 ul {
+        margin : 40px;
+      }
+      .content3 li {
+        display : inline-block;
+        padding : 10px;
+        background-color: #2c2a29;
+      }
+      footer {
+        width : 100%;
+        background-color : #2c2a29;
+      }
+      #footer_box {
+        width:100%;
+        margin:0 auto;
+      }
+      #footer_logo {
+        padding-top : 30px;
+      }
+      #sns ul {
+        width : 100%;
+        padding : 10px;
+        text-align : center;
+      }
+      #sns li {
+        display : inline;
+      }
+      #copyright {
+        padding-bottom : 30px;
+      }
+
+      /* @media only screen and (max-width:620px) {
+        .header, .menus, .main_img, .footer_box {
+          width : 100%;
+        } */
+    </style>
+    <!-- <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="http://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script> -->
+  </head>
+  <body>
+
+    <header id = 'header'>
+      <div id="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+      </div>
+    </header>
+    <nav id="menus">
+      <ul id="main_menu">
+        <li><a href="page1.html">H!G1</a> </li>
+        <li><a href="page2.html">H!DESIGN</a></li>
+        <li><a href="page3.html">H!VIDEO</a></li>
+        <li><a href="page4.html">WITHME?</a></li>
+      </ul>
+    </nav>
+
+    <div class="clear"></div>
+    <section>
+      <div class="content1">
+        <h2>Choi Ji Won</h2>
+        <h2>!</h2>
+        <p><b>느낌표</b>처럼 항상 반짝이는 디자이너</p>
+        <p>반짝이는 아이디어로 세상을 반짝이게 만드는 것이 목표입니다.</p>
+        <img src="img/me.png" alt="">
+        <br>
+        <p>2000.01.25</p><br><p>2019 선린인터넷고등학교 멀티미디어과 졸업 <br> 2021 계원예술대학교 디지털미디어디자인과 재학</p>
+        <p></p>
+      </div>
+      <div class="content2">
+        <ul>
+          <li><img src="img/program-01.png"  alt=""></li>
+          <li><img src="img/program-02.png"  alt=""></li>
+          <li><img src="img/program-03.png"  alt=""></li>
+          <li><img src="img/program-04.png"  alt=""></li>
+        </ul>
+      </div>
+      <div class="content3">
+        <ul>
+          <li><a href="page2.html" style="color : white;">!N MY DESIGN</a></li>
+          <li><a href="page3.html" style="color : white;">!N MY VIDEO</a></li>
+        </ul>
+      </div>
+    </section>
+    <div class="clear"></div>
+    <footer>
+      <div id="footer_logo">
+        <img src="img/footer_logo.png" alt="">
+      </div>
+      <div id="sns">
+        <ul>
+          <li><a href="https://www.behance.net/yeolone5932/projects"><img src="img/snslogo-01.png" alt=""></a></li>
+          <li><a href="https://www.instagram.com/g_1lust/"><img src="img/snslogo-02.png" alt=""></a></li>
+          <li><a href="https://www.youtube.com/channel/UCzWWscYQ0ypojJzO1h7ShpQ"><img src="img/snslogo-05.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div id="copyright" style="color : white; font-size : 12px;">
+        Copyright 2021. H!G1. All rights reserved.
+    </footer>
+  </body>
+</html>
